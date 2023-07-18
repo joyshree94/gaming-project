@@ -1,0 +1,76 @@
+*{
+    margin:0;
+	padding:0;
+    font-family: Work Sans;
+}
+
+/*navbar*/
+.banner{
+	background-color: rgba(229, 84, 115, 0.10);
+	padding: 0px 150px 0px 150px;
+	display: flex;
+    justify-content: space-between;
+	align-items: center;
+	
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px ;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+.navbar-nav{
+    list-style: none;
+}
+.nav-link{
+background-color: aqua;
+    padding: 10px 15px;
+}
+
+
+.play-caption h1{
+	font-weight: 800;
+	font-size: 50px;
+	padding-bottom: 30px;
+	width: 400px;
+}
+.play-caption p{
+	width: 520px;
+	padding-bottom: 30px;
+	text-align: left;
+	
+}
+.play-caption button{
+	padding: 10px 25px;
+	background-color: #E55473;
+	color: white;
+	border-color: #E55473;
+	border-radius: 5px;
+	border-width: 0px;
+	font-size: 15px;
+	
+}
+.beautiful-game-place{
+	padding-top: 70px;
+	padding-left: 50px;
+	
+}
+.beautiful-game-place img{
+	width: 300px;
+	height: 300px;
+	display: block;
+}
+
