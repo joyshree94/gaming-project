@@ -175,3 +175,27 @@ background-color: aqua;
 	color: #fff;
 	transition: bottom 2s ease;
 }
+/*more-button*/
+.more-button-section1{
+   display: grid;
+   grid-template-columns: 200px 200px 200px 200px 200px;
+   justify-content:center;
+   column-gap: 20px;
+   row-gap: 20px;
+   
+}
+.more-button-section2{
+	display: grid;
+	grid-template-columns: 200px 200px 200px 200px;
+	justify-content:center;
+	column-gap: 20px;
+	row-gap: 20px;
+	
+ }
+.more-button .single-section{
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	
+	
+}
