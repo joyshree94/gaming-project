@@ -297,7 +297,7 @@
 
 
 /*responsive*/
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	/*navbar*/
 	.navbar{
 		display: block;
@@ -479,17 +479,51 @@
 	color: #fff;
 	transition: bottom 2s ease;
 }
-
+/*Play-Instantly*/
+.Play-Instantly{
+	padding: 100px 80px;
+	width: auto;
+	margin-left: 40%;
+}
+.play-Instantly-section{
+	display: block;
+	justify-content: center;
+	align-items: center;
+}
+.play-Instantly-section span{
+	color: #F948B2;
+}
+.play-Instantly-section .para{
+	width: auto;
+	text-align: center;
 }
 
-/*responsive*/
-@media only screen and (max-width: 425px) {
-	/*navbar*/
+.play-Instantly-section .para p{
+	width: 300px;
+	padding-bottom: 30px;
+	text-align: center;
+	margin-left: 16%;
+}
+.play-Instantly-section img{
+	width: 400px;
+	height: 400px;
+}
+.Play-Instantly .single-image-play-instant img{
+	margin-top: -160px;
+	margin-left: -90px;
+   width: 250px;
+   height: 250px;
+}
+}
+
+@media screen and (max-width: 425px) {
+	/*benner*/
 	.navbar{
 		width: 745px;
 	}
+		/*navbar*/
+	
 
-/*benner*/
 .beautiful-game-place{
 	padding-top: 50px;
     padding-bottom: 50px;
@@ -521,6 +555,12 @@
 	font-weight: 900;
 	font-size: 20px;
 	padding-left: 90px;
+}
+/*Play-Instantly*/
+.Play-Instantly{
+	padding: 100px 80px;
+	width: auto;
+	margin-left: 70%;
 }
 
 }
