@@ -410,10 +410,10 @@
 }
 .overlay{
 	position: absolute;
-	border: 1px solid red;
+	border: 1px solid transparent;
 	border-radius: 10px;
     width: 700px;
-	height: 100px;
+	height: 0px;
 	background:rgba(0,0,0,.5);
 	transition: height 2s;
 }
@@ -423,15 +423,14 @@
 	border-radius: 10px;
 	width: 700px;
 	height: 800px;
-   /* background:rgba(0,0,0,.5);*/
-   background-color: red;
+    background:rgba(0,0,0,.5);
 	transition: height 2s ease;
 
 }
 
 .single-image .icon{
 	position:absolute;
-	left:40%;
+	left:55%;
 	bottom:10%;
 	transition: bottom 2s ease;
 }
@@ -448,7 +447,7 @@
 }
 .single-image:hover .icon{
     position: absolute;
-	left:40%;
+	left:55%;
 	bottom:45%;
 	transition: bottom 2s ease ;
 }
@@ -468,10 +467,11 @@
 .watch-button{
 	position:absolute;
 	padding-top: 10px !important;
-	left: 35%;
+	left: 50%;
 	bottom:0%;
 	color: transparent;
 	transition: bottom 2s ease , color 2s ease;
+	font-size: 30px;;
 }
 .single-image:hover .watch-button{
 	position:absolute;
@@ -504,5 +504,23 @@
 	display: block;
 }
 
+/*online gane*/
+.online-game{
+	width: 745px;
+}
+.online-game h1{
+    font-weight: 800;
+	font-size: 30px;
+    padding-top: 20px;
+	
+}
+.online-game-para{
+    text-align: center;
+    padding-top: 20px;
+    width: 600px;
+	font-weight: 900;
+	font-size: 20px;
+	padding-left: 90px;
+}
 
 }
