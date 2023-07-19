@@ -6,11 +6,13 @@
 
 /*navbar*/
 .navbar{
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 160px ;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 150px;
+	padding-right: 150px;
 }
 .logo{
     display: flex;
@@ -54,18 +56,38 @@
 }
 
 .banner{
-	background-color: rgba(229, 84, 115, 0.10);
-	padding: 0px 150px 0px 150px;
 	display: flex;
-    justify-content: space-between;
-	align-items: center;
-	
+}
+.play-caption{
+	padding-top: 50px;
+    padding-bottom: 50px;
+	padding-left: 160px;
+	padding-right: 50px;
+	background:url(images/Group\ 14.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+	background-color: rgba(140, 87, 238, 0.03);
+}
+.play-caption h3{
+	color: #0B0223;
+	text-align:left;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	padding-bottom: 10px;
 }
 .play-caption h1{
-	font-weight: 800;
+	text-align:left;
 	font-size: 50px;
-	padding-bottom: 30px;
-	width: 400px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-transform: uppercase;
+	color: #F948B2;
+	padding-bottom: 10px;
+	
 }
 .play-caption p{
 	width: 520px;
@@ -73,24 +95,31 @@
 	text-align: left;
 	
 }
+.play-caption .icon-para{
+   display: flex;
+   gap: 10px;
+}
 .play-caption button{
 	padding: 10px 25px;
 	background-color: #E55473;
 	color: white;
 	border-color: #E55473;
-	border-radius: 5px;
+	border-radius: 30px;
 	border-width: 0px;
 	font-size: 15px;
 	
 }
 .beautiful-game-place{
-	padding-top: 70px;
+	padding-top: 50px;
+    padding-bottom: 50px;
 	padding-left: 50px;
+	padding-right: 150px;
+
 	
 }
 .beautiful-game-place img{
-	width: 300px;
-	height: 300px;
+	width: 450px;
+	height: 400px;
 	display: block;
 }
 
