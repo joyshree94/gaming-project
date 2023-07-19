@@ -298,7 +298,73 @@
 .more-button .single-section:hover{
 	border: 1px solid #F948B2;
 }
+/*footer*/
+.footer-section{
+	padding: 100px 100px;
+	color: #fff;
+	background-color: #0B0223;
+}
+.footer-section .footer-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
+}
+.footer-section .footer-frame p{
+	font-size: 50px;
+}
+.footer-section .footer-frame span{
+	color: #F948B2;
+	font-weight: 900;
+}
+.footer-section .footer-para{
+	display: flex;
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 10px;
+}
+.footer-section .footer-para p{
+	width: 100px;
+}
+
+.footer-section .footer-icon{
+	display: flex;
+
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 20px;
+
+}
+.footer-section .footer-icon i{
+	font-size: 20px;
+	color: #fff;
+}
+.footer-section .term-condition{
+	display: flex;
+
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 20px;
+}
+
+.footer-section .last-para-footer{
+	padding-top: 20px;
+	text-align: center;
+}
+.last-para-footer p{
+	width: 100%
+	 
+}
 /*responsive*/
 @media screen and (max-width: 768px) {
 	/*navbar*/
@@ -526,7 +592,68 @@
 	width: 100%;
 	margin-left: 10%;
 }
+/*footer*/
+.footer-section{
+	width: 900px;
+}
+.footer-section .footer-para{
+	display: flex;
+	flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   padding-left: 150px;
+   padding-right: 100px;
+   text-align: center;
 
+}
+.footer-section .footer-para p{
+	width: 170px;
+	font-size: 20px;
+}
+.footer-section .footer-icon{
+	display: flex;
+	flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 20px;
+   padding-left: 160px;
+   padding-right: 140px;
+   
+  
+}
+.footer-section .footer-icon i{
+	font-size: 50px;
+	color: #fff;
+	width: 160px;
+}
+.footer-section .term-condition{
+	display: flex;
+	flex-wrap: wrap;
+   justify-content:center;
+   align-items: center;
+   padding-top: 50px;
+   text-align: center;
+   row-gap: 20px;
+   column-gap: 20px;
+   padding-left: 150px;
+   padding-right: 150px;
+}
+.footer-section .term-condition p{
+	width: 200px;
+
+}
+.last-para-footer{
+	padding-left: 40%;
+	padding-top: 50px;
+}
+.last-para-footer p{
+	width: 200px
+	 
+}
 }
 
 @media screen and (max-width: 425px) {
