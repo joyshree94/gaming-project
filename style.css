@@ -5,9 +5,8 @@
 }
 
 /*navbar*/
-
-
 .navbar{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +50,7 @@
 	color: #E55473;
 }
 .nav-link:hover{
-	background-color: rgba(11, 2, 35, 0.10);;
+	background-color: rgba(11, 2, 35, 0.10);
 }
 
 .banner{
@@ -290,13 +289,25 @@
     padding: 10px 180px;
 
 }
-.nav-link div{
-	padding: 2px 5px;
+/*banner*/
+.banner{
+	background-color: rgba(229, 84, 115, 0.10);
+	padding: 0px 150px 0px 150px;
+	display: block;
+    justify-content: space-between;
+	align-items: center;
+	
 }
 
-.nav-link div:hover{
-	background-color: rgba(11, 2, 35, 0.10);
-
 }
+
+/*responsive*/
+@media only screen and (max-width: 425px) {
+	/*navbar*/
+	.navbar{
+		width: 745px;
+	}
+
+
 
 }
