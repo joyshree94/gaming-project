@@ -483,7 +483,7 @@
 	border-radius: 10px;
     width: 700px;
 	height: 0px;
-	background:rgba(0,0,0,.5);
+	background:transparent;
 	transition: height 2s;
 }
 .single-image:hover .overlay{
@@ -656,84 +656,3 @@
 }
 }
 
-@media screen and (max-width: 425px) {
-	/*benner*/
-	.navbar{
-		width: 745px;
-	}
-		/*navbar*/
-	
-
-.beautiful-game-place{
-	padding-top: 50px;
-    padding-bottom: 50px;
-	padding-left: 20px;
-	padding-right: 150px;
-	margin-left: 0px;
-	
-}
-.beautiful-game-place img{
-	width: 700px;
-	height: 700px;
-	display: block;
-}
-
-/*online gane*/
-.online-game{
-	width: 745px;
-}
-.online-game h1{
-    font-weight: 800;
-	font-size: 30px;
-    padding-top: 20px;
-	
-}
-.online-game-para{
-    text-align: center;
-    padding-top: 20px;
-    width: 600px;
-	font-weight: 900;
-	font-size: 20px;
-	padding-left: 90px;
-}
-/*Play-Instantly*/
-.Play-Instantly{
-	padding: 100px 80px;
-	width: auto;
-	margin-left: 70%;
-}
-
-
-/*more-button*/
-.more-button{
-	padding-top: 10px;
-	padding-bottom:80px;
-	padding-left: 0px;
-	padding-right: 0px;
-	width: 700px;
-	margin-left: 50%;
-}
-.more-button-section{
-   display: flex;
-   flex-wrap: wrap;
-  flex-direction: row;
-   justify-content:center;
-   column-gap: 0px;
-
-   align-items: center;
-   
-   
-}
-.more-button .single-section{
-	display: flex;
-	gap: 20px;
-	align-items: center;
-	border: 1px solid transparent;
-	padding: 5px 10px;
-	border-radius: 50px;
-}
-.more-button .single-section:hover{
-	border: 1px solid #F948B2;
-}
-
-}
